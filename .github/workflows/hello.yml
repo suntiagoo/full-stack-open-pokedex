@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: Say hello
         run: |
-          echo "Hello World!"
-    steps:
       - name: Now it is
         run: |
           echo "Today is $(date)"
