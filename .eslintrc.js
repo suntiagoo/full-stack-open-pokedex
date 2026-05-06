@@ -14,6 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', 'jest'],
+  ignorePatterns: ['dist/', 'build/', 'playwright-report'],
   rules: {
     //'no-console': ['error', { allow: ['warn', 'error'] }],
     indent: ['error', 2],
