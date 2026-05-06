@@ -15,11 +15,9 @@ jobs:
       - name: Now it is
         run: |
           echo "Today is $(date)"
-    steps:
       - name: Another way tto print the date
         run: |
           date
-    steps:
       - name: Directory content
         run: |
           ls -l
