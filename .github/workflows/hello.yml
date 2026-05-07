@@ -1,21 +1,21 @@
-name: Hello World!
+# name: Hello World!
 
-on:
-  push:
-    branches: ["main"]
+# on:
+#   push:
+#     branches: ["main"]
 
-jobs:
-  hello_world_job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Say hello
-        run: |
-      - name: Now it is
-        run: |
-          echo "Today is $(date)"
-      - name: Another way tto print the date
-        run: |
-          date
-      - name: Directory content
-        run: |
-          ls -l
+# jobs:
+#   hello_world_job:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Say hello
+#         run: |
+#       - name: Now it is
+#         run: |
+#           echo "Today is $(date)"
+#       - name: Another way tto print the date
+#         run: |
+#           date
+#       - name: Directory content
+#         run: |
+#           ls -l
